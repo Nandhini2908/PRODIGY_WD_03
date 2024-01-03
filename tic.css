@@ -1,0 +1,70 @@
+ h1 {
+     font-family: 'Lumanosimo', cursive;
+     text-align: center;
+     color: brown;
+     font-size: 50px;
+ }
+
+ h2 {
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+     color: mediumseagreen;
+ }
+
+ body {
+     background-color: lightcyan;
+ }
+
+ #board {
+     width: 450px;
+     height: 450px;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     font-family: Arial, Helvetica, sans-serif;
+     color: mediumvioletred;
+ }
+
+ .tile {
+     width: 147px;
+     height: 147px;
+     font-size: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .winner {
+     background-color: lightgray;
+     color: red;
+ }
+
+ .horizontal-line {
+     border-bottom: 4px solid black;
+ }
+
+ .vertical-line {
+     border-right: 4px solid black;
+ }
+
+ .restartBtn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 200px;
+ }
+
+ button {
+     padding: 10px 20px;
+     border-radius: 10px;
+     background-color: purple;
+     color: white;
+     border-color: purple;
+     font-size: 18px;
+     transition: 200ms transform;
+ }
+
+ button:hover {
+     cursor: pointer;
+     transform: translateY(-2px);
+ }
